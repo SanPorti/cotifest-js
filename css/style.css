@@ -1,0 +1,418 @@
+
+/*-------Fuentes-------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+/*-------Header------*/
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.navbar-toggler {
+    background-color: #daffc9;
+    border: 1px solid rgb(169, 169, 169);
+}
+
+.navbar-nav .nav-link {
+    color:#b77cff ;
+    font-family: Kanit, sans-serif;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(254, 121, 121);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color:#7300ff;
+    transition: 0.5s;
+}
+
+.container-fluid {
+    background-color:#daffc9;
+}
+
+/*-------Body-------*/
+
+body {
+    background-color: #ffffff;
+    background-image: linear-gradient(180deg, #ffffff 12%, #73b8ff 50%, #ffffff 88%);
+}
+
+/*-------Main-------*/
+
+.ancho-maximo {
+    max-width: 1800px;
+}
+
+/*-------Banner-------*/
+
+.logobanner {
+    width: 15rem;
+    margin: 7rem 10rem;
+    object-fit: contain;
+}
+
+.container-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+/*-------Bienvenidos-------*/
+
+.centrar-bienvenidos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bienvenidos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    justify-content: center;
+}
+
+.cotifest {
+    margin-bottom: 5rem;
+    font-family: Permanent Marker, sans-serif;
+    font-size: 100px;
+}
+
+.img-ppal {
+    width: 1000px;
+}
+
+.bienvenidos p {
+    font-size: 25px;
+    text-align: center;
+    margin: 3rem 0;
+    font-family: Kanit;
+}
+
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.nosotros h2 {
+    font-family: Permanent Marker;
+    font-size: 50px;
+    margin: 3rem 0;
+    text-decoration: underline;
+}
+
+/*-------Footer-------*/
+
+.footer-redes {
+    background-color: #daffc9;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 0;
+}
+
+.footer-redes li {
+    margin: 0 5rem;
+}
+
+.footer-redes li a {
+    color:#b77cff;
+    transition: 0.5s ease-in-out;
+}
+
+.footer-redes li a:hover {
+    color: #7300ff;
+    transition: 0.5s;
+}
+
+.footer-redes ul {
+    margin: auto;
+}
+
+/*-------Productos-------*/ 
+
+#nuestros-productos {
+    text-align: center;
+    margin: 2rem;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+#container-productos {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.card-productos {
+    background-color: #ffffff;
+    border: 3px solid #b3ff8f;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+} 
+
+.img-productos {
+    width: 100%;
+    height: 224px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 1rem;
+    border: 3px solid rgb(250, 255, 147);
+    border-radius: 500px;
+}
+
+.card-productos h2 {
+    margin-top: 1rem;
+    height: 40px;
+    font-size: 20px;
+    font-family: Montserrat;
+}
+
+.precio {
+    margin: 2rem 0 3rem 0;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Montserrat;
+}
+
+.boton-productos {
+    background-color: #b77cff;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Montserrat;
+}
+
+.boton-productos:hover {
+    background-color: #7300ff;
+    transition: 0.5s;
+}
+
+/*-------Carrito-------*/
+
+#tus-productos {
+    text-align: center;
+    margin: 2rem 0;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+#container-carrito {
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card-carrito {
+    background-color: #ffffff;
+    border: 3px solid #b3ff8f;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 700px;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-carrito {
+    width: 224px;
+    height: auto;
+    padding: 1rem;
+    border: 3px solid rgb(250, 255, 147);
+    border-radius: 500px;
+}
+
+.img-descripcion {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.descripcion-producto-carrito {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Montserrat;
+}
+
+.descripcion-producto-carrito h2 {
+    font-size: 20px;
+    font-family: Montserrat;
+}
+
+.precio-carrito {
+    margin: 1rem 0 2rem 0;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Montserrat;
+}
+
+.boton-carrito {
+    background-color: #b77cff;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    font-family: Montserrat;
+}
+
+.boton-carrito:hover {
+    background-color: #7300ff;
+    transition: 0.5s;
+}
+
+.container-total {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 30px;
+    margin: 2rem;
+    font-family: Montserrat;
+}
+
+.titulo-total {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 3rem;
+}
+
+@media (max-width: 450px) {
+    
+    .logobanner {
+        width: 10rem;
+        margin: 2rem 2rem;
+    }
+
+    .cotifest {
+        margin-top: 6rem;
+        font-size: 35px;
+    }
+
+    .bienvenidos p {
+        font-size: 16px;
+        margin: 1rem;
+    }
+
+    .nosotros h2 {
+        font-size: 25px;
+    }
+
+    .img-ppal {
+        width: 300px;
+    }
+
+    .mapa {
+        width: 300px;
+    }
+
+    .footer-redes {
+        font-size: 1.5rem;
+        padding: 1rem 0;
+    }
+
+    .footer-redes li {
+        margin: 0 1rem;
+    }
+
+    #nuestros-productos {
+        font-size: 25px;
+    }
+
+    #tus-productos {
+        font-size: 25px;
+    }
+
+    .card-carrito {
+        width: 300px;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .img-carrito {
+        width: 120px;
+        height: 120px;
+    }
+
+    .descripcion-producto-carrito {
+        padding: 5px;
+    }
+
+    .descripcion-producto-carrito h2 {
+        font-size: 16px;
+    }
+
+    .descripcion-producto-carrito .precio-carrito {
+        font-size: 18px;
+    }
+
+    .container-total {
+        font-size: 25px;
+    }
+
+    .img-descripcion {
+        width: 250px;
+        display: flex;
+        margin: 1.5rem 1rem;
+        border-bottom: 1px solid lightgray;
+    }
+
+    .boton-carrito {
+        margin-bottom: 0.5rem;
+    }
+
+}
